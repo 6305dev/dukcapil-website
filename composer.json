@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "serve": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S 127.0.0.1:3000"
+    ]
+  },
+  "require": {
+    "bramus/router": "~1.6",
+    "verot/class.upload.php": "^2.1",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}

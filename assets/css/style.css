@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+input,
+button,
+textarea,
+.progress {
+  border-radius: 0 !important;
+}
+
+.btn-primary,
+.bg-primary {
+  background-color: #10b1ec !important;
+  border-color: #10b1ec !important;
+}
+
+.text-primary {
+  color: #10b1ec !important;
+}
+
+.text-danger {
+  color: #dd6666 !important;
+}
+
+.text-success {
+  color: #1cb187 !important;
+}
+
+.btn-danger,
+.bg-danger {
+  background-color: #dd6666 !important;
+  border-color: #dd6666 !important;
+}
+
+.btn-success,
+.bg-success {
+  background-color: #1cb187 !important;
+  border-color: #1cb187 !important;
+}
+
+.box-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box-center-content {
+  text-align: center;
+}
+
+.owl-carousel {
+  overflow: hidden !important;
+}
+
+a {
+  color: #565757 !important;
+}
+
+.text-pacifico {
+  font-family: "Pacifico", cursive;
+  font-style: normal;
+}
+
+.header {
+  padding: 0.5rem;
+  color: #fff;
+  background: rgb(38, 38, 38);
+  text-align: center;
+}
+
+.header-navbar {
+  color: #fff;
+  border-top: solid #333 1px;
+}
+
+.header-navbar .nav-link {
+  color: #fff !important;
+}
+
+.header-navbar .nav-link:hover {
+  color: #10b1ec !important;
+}
+
+.header-navbar .navbar-toggler {
+  color: #fff !important;
+}
+
+.owl-carousel img {
+  aspect-ratio: 16/9 !important;
+  object-fit: cover !important;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.328);
+  backdrop-filter: blur(3px);
+  padding-inline: 1rem;
+}
+
+.caption {
+  color: white;
+  padding: 0.5rem;
+  text-align: left;
+  font-size: small;
+}
+
+.smaller {
+  font-size: 8pt;
+}
+
+.box-short {
+  margin-top: 1rem;
+  /* background-color: #ebeef3; */
+}
+
+.box-short-item:hover {
+  background-color: #fff;
+  border: none;
+}
+
+.box-short-item {
+  border-radius: 0.3rem;
+  background-color: #fafbfd;
+  border: dashed 1px #ebebeb;
+}
+
+.fullx {
+  background-image: url("/assets/img/kantor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.box-review .card img {
+  aspect-ratio: 1/1 !important;
+  object-fit: scale-down !important;
+  transition: transform 0.3s ease-in-out;
+  height: 300px;
+  width: 100% !important;
+}
+
+.box-review .card {
+  overflow: hidden;
+  border: none !important;
+  border-radius: 0 !important;
+  margin-inline: 10px;
+  min-height: 500px !important;
+  padding: 1rem;
+}
+
+.box-review .card img:hover {
+  transform: scale(2.2) translateY(20%);
+}
+
+.card-title {
+  text-align: center;
+}
+
+.dropdown-menu {
+  opacity: 0;
+  transform: scaleY(0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdown-menu.show {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.box-breadcrumb {
+  padding: 1rem;
+}
+
+.box-breadcrumb .active {
+  font-weight: bold;
+}
+
+.box-breadcrumb a {
+  text-decoration: none;
+}
+
+.btn-search {
+  color: #fff;
+}
+
+.btn-search:hover {
+  color: #9a9a9a !important;
+  font-weight: bold !important;
+}
+
+.box-search .dropdown-menu {
+  background: rgba(255, 255, 255, 0.839);
+  backdrop-filter: blur(5px);
+  padding: 1rem;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.box-search input {
+  border: none !important;
+  background: none !important;
+}
+
+.show {
+  transition: 0.5s ease-in-out !important;
+}
+
+.img-article {
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+.dropzone {
+  height: 100px;
+  border: dashed 1px #ccc;
+  background-color: #eff2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .dropzone::before {
+  content: "Unggah Gambar Disini";
+} */
+
+.faq .accordion-body {
+  font-size: small !important;
+}
+
+.footer {
+  padding: 1rem;
+  font-size: small;
+  background-color: #f8f9ff;
+}
+
+.motto {
+  padding: 1rem;
+  font-family: "Pacifico", cursive;
+  font-size: 24pt;
+  color: #7e8ff0;
+}
+
+.content {
+  padding: 1rem 4rem 4rem 4rem;
+}
+
+.greet {
+  letter-spacing: 2px;
+}
+
+.greet-sub {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.articles-table {
+  height: 80vh;
+}
