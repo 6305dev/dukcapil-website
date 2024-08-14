@@ -25,7 +25,7 @@
                             <div>
                                 <div class="d-flex justify-content-start">
                                     <div class="me-2">
-                                        <img style="width:50px" src="https://dukcapil.tapinkab.go.id/assets/img/ONLINE.png" alt="">
+                                        <img style="width:50px" src="/assets/img/ONLINE.png" alt="">
                                     </div>
                                     <div>
                                         <div>
@@ -46,7 +46,7 @@
                             <div>
                                 <div class="d-flex justify-content-start">
                                     <div class="me-2">
-                                        <img style="width:50px" src="https://dukcapil.tapinkab.go.id/assets/img/FORMULIR.png" alt="">
+                                        <img style="width:50px" src="/assets/img/FORMULIR.png" alt="">
                                     </div>
                                     <div>
                                         <div>
@@ -67,7 +67,7 @@
                             <div>
                                 <div class="d-flex justify-content-start">
                                     <div class="me-2">
-                                        <img style="width:50px" src="https://dukcapil.tapinkab.go.id/assets/img/IKD.png" alt="">
+                                        <img style="width:50px" src="/assets/img/IKD.png" alt="">
                                     </div>
                                     <div>
                                         <div>

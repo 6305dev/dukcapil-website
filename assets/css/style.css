@@ -5,7 +5,6 @@
 * {
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
 }
 
@@ -138,7 +137,6 @@ a {
 
 .box-short {
   margin-top: 1rem;
-  /* background-color: #ebeef3; */
 }
 
 .box-short-item:hover {
@@ -247,10 +245,6 @@ a {
   align-items: center;
 }
 
-/* .dropzone::before {
-  content: "Unggah Gambar Disini";
-} */
-
 .faq .accordion-body {
   font-size: small !important;
 }
@@ -269,7 +263,7 @@ a {
 }
 
 .content {
-  padding: 1rem 4rem 4rem 4rem;
+  padding: 1rem;
 }
 
 .greet {

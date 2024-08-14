@@ -1,5 +1,5 @@
 <div class="col-md-4">
-    <div class="px-4">
+    <div class="mb-5">
         <div class="p-3">
             <span class="fs-5">
                 Informasi
@@ -37,7 +37,7 @@
             </tr>
         </table>
     </div>
-    <div class="faq px-4 mt-3">
+    <div class="faq mt-3">
         <div class="p-3">
             <span class="fs-5">
                 Yang Sering Ditanyakan?
