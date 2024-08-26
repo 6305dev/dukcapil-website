@@ -1,3 +1,5 @@
 vendor
 composer.lock
 files
+data.db
+.env
