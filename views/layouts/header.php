@@ -69,7 +69,7 @@
                                 <li><a class="dropdown-item" href="/publikasi/agregat">Data Agregat</a></li>
                                 <li><a class="dropdown-item" href="/publikasi/formulir">Unduh Formulir</a></li>
                                 <li><a class="dropdown-item" href="/publikasi/inovasi-kerjasama">Inovasi &amp; Kerjasama</a></li>
-                                <li><a class="dropdown-item" href="/publikasi/laporan-pengaduan">Laporan Pengaduan</a></li>
+                                <li><a class="dropdown-item" href="/publikasi/laporan-pengaduan">Laporan Konsultasi & Pengaduan</a></li>
                                 <li><a class="dropdown-item" href="/publikasi/laporan-hasil-skm">Laporan Hasil SKM</a></li>
                                 <li><a class="dropdown-item" href="/publikasi/penilaian-pegawai">Penilaian Pegawai</a></li>
                                 <li><a class="dropdown-item" href="https://wbs.dukcapil.tapinkab.go.id" target="_blank">Whistle Blowing System</a></li>

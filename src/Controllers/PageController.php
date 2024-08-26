@@ -5,16 +5,16 @@ namespace App\Controllers;
 class PageController
 {
 
-    private $pages;
+    private $model;
 
     public function __construct()
     {
-        $this->pages = new \App\Models\PageModel();
+        $this->model = new \App\Models\PageModel();
     }
 
     public function GetPages($permalink)
     {
-        $data = $this->pages->getPages($permalink);
+        $data = $this->model->getPages($permalink);
 
         if (!$data) {
             header('location: /');

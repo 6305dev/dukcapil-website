@@ -15,14 +15,14 @@ class UploadController
     {
         if ($this->handle->uploaded) {
             $this->handle->file_new_name_body = $this->RandomString();
-            // $this->handle->image_resize = true;
             $this->handle->file_max_size = 2097152;
             $this->handle->allowed = array('jpg', 'jpeg', 'png');
             $this->handle->forbidden = array();
             $this->handle->process('files/', 'id_ID');
             $this->handle->dir_auto_create = true;
+            $this->handle->jpeg_quality = 50;
+            // $this->handle->image_resize = true;
             // $this->handle->png_compression = 9;
-            // $this->handle->jpeg_quality = 50;
 
             if ($this->handle->processed) {
                 echo json_encode(['status' => 'success', 'message' => $this->handle->file_dst_name]);

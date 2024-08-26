@@ -1,266 +1,156 @@
-<div class="container">
-    <div class="box-breadcrumb">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Beranda</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Penilaian Kinerja Pegawai</li>
-            </ol>
-        </nav>
-    </div>
-    <div class="box-review">
-        <div class="owl-carousel">
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/AYU.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Ayu Syifa Rahmi, S.H.</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">FRONT OFFICE</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/ADI.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Muhammad Fitriadi</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">FRONT OFFICE</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/MUDAH.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Siti Mursyidawati Mahmudah,SE</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">FRONT DESK</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/NIZMA.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Nizmatullayla, S.Pd.</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">FRONT DESK</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/ASLAM.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Suhaybatul Aslamiyah</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">FRONT DESK</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/IBNU.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Muhammad Ibnu Sina, AMd</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">FRONT DESK</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/JAFAR.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Jafar Assadiq, S.Kom</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">FRONT DESK</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/SARI.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Gusti Syaripah,S.Kom</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">MPP</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/NADA.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Nada Aulia Putri, S.Pd</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">MPP</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/CHANDRA.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Chandra Hairullah, S.Kom</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">MPP</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/FIRDHAN.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Firdan Subhan Noor, S.Kom</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">OPERATOR</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/RAHMAT.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">RAHMAT KARTOLO</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">OPERATOR</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/AJAI.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">AKHMAD ZAILANI</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">OPERATOR</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/FITRIA.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Fitria, S.H</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">OPERATOR</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card">
-                    <img src="/assets/img/employee/ILMI.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Muhammad Nor Ilmi</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">OPERATOR</small>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card h-10">
-                    <img src="/assets/img/employee/IMUR.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold mt-2">Murhasanah</h5>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">OPERATOR</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="mt-3">
-            <div class="input-group">
-                <div class="form-floating">
-                    <select id="employee" class="form-select">
-                        <option selected></option>
-                        <option value="1">Ayu Syifa Rahmi, S.H. - FRONT OFFICE</option>
-                        <option value="2">Muhammad Fitriadi - FRONT OFFICE</option>
-                        <option value="3">Siti Mursyidawati Mahmudah,SE - FRONT DESK</option>
-                        <option value="4">Nizmatullayla, S.Pd. - FRONT DESK</option>
-                        <option value="5">Suhaybatul Aslamiyah - FRONT DESK</option>
-                        <option value="6">Muhammad Ibnu Sina, AMd - FRONT DESK</option>
-                        <option value="7">Jafar Assadiq, S.Kom - FRONT DESK</option>
-                        <option value="8">Gusti Syaripah S.Kom, - MPP</option>
-                        <option value="9">Nada Aulia Putri, S.Pd - MPP</option>
-                        <option value="11">Chandra Hairullah, S.Kom - MPP</option>
-                        <option value="12">Firdhan Subhan Noor, S.Kom - OPERATOR REKAM KTP</option>
-                        <option value="13">Rahmat Kartolo - KONSOLIDASI</option>
-                        <option value="14">Akhmad Zailani - KONSOLIDASI</option>
-                        <option value="15">Fitria, S.H - PENGAMBILAN ONLINE</option>
-                        <option value="16">Muhammad Nor Ilmi - PENGAMBILAN ONLINE</option>
-                        <option value="17">Murhasananah - PENGAMBILAN OFFLINE</option>
-                    </select>
-                    <label for="employee">Pilih Pegawai</label>
-                </div>
-                <div class="form-floating">
-                    <select id="employee-rate" class="form-select">
-                        <option selected></option>
-                        <option value="5">Sangat Baik</option>
-                        <option value="4">Baik</option>
-                        <option value="3">Bagus</option>
-                        <option value="2">Lumayan</option>
-                        <option value="1">Kurang</option>
-                    </select>
-                    <label for="employee-rate">Berikan Nilai</label>
-                </div>
-                <input type="text" id="notes" class="form-control" placeholder="Catatan tambahan.. (Opsional)" autocomplete="off">
-                <button id="submit-rate" class="btn btn-primary">Kirim Nilai</button>
-            </div>
-        </div>
-    </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
 
-<script>
-    const owl = $(".owl-carousel");
-    owl.owlCarousel({
-        margin: 0,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                loop: true
-            },
-            600: {
-                items: 4,
-                loop: true
-            },
-            1000: {
-                items: 4,
-                loop: true
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISDUKCAPIL TAPIN - PENILAIAN KINERJA PEGAWAI</title>
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/sweetalert2.min.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+        * {
+            font-family: "Poppins", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
         }
-    });
 
-    $("#submit-rate").click(function() {
-        Swal.fire({
-            icon: 'success',
-            title: 'Nilai Terkirim',
-            text: 'Terima Kasih, penilaian anda akan menjadi bahan evaluasi kami!',
-            showConfirmButton: false,
-            timer: 3000
-        }).then(function() {
-            location.reload()
+        body {
+            background-color: aliceblue;
+        }
+
+        .container {
+            min-height: 100vh;
+            border-top: 4px #8735A5 solid;
+        }
+
+        #employee-images {
+            aspect-ratio: 9 / 16;
+            width: 100%;
+            overflow: hidden;
+            object-fit: cover;
+        }
+
+        .btn-primary {
+            background-color: #8735A5 !important;
+            border: #8735A5 1px solid !important;
+        }
+
+        .btn-primary:hover {
+            background-color: #C96CEA !important;
+        }
+
+        #employee-form-name:disabled {
+            background-color: transparent;
+        }
+    </style>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+    <?php
+    $items = json_decode($params);
+    ?>
+    <div class="container bg-white">
+        <div class="p-3 fs-2">
+            PENILAIAN KINERJA PEGAWAI
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="p-3">
+                    <div class="mb-3">
+                        <img id="employee-images" src="/files/<?= $items->images ?>" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="p-3">
+                    <div class="mb-4">
+                        <div class="fs-3" id="employee-name"><?= $items->name ?></div>
+                        <div class="fs-5" id="employee-job"><?= $items->job ?></div>
+                    </div>
+                    <div class="mb-5">
+                        <div class="mb-3">Berikan Nilai</div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="employee-form-rate" value="5" checked>
+                            <label class="form-check-label" for="rate">
+                                Sangat Baik
+                            </label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="employee-form-rate" value="4">
+                            <label class="form-check-label" for="rate">
+                                Baik
+                            </label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="employee-form-rate" value="3">
+                            <label class="form-check-label" for="rate">
+                                Bagus
+                            </label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="employee-form-rate" value="2">
+                            <label class="form-check-label" for="rate">
+                                Lumayan
+                            </label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="employee-form-rate" value="1">
+                            <label class="form-check-label" for="rate">
+                                Kurang
+                            </label>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="mb-3">Catatan Tambahan (Opsional)</div>
+                        <textarea id="employee-form-note" class="form-control" spellcheck="false" style="height: 200px;"></textarea>
+                    </div>
+                    <div class="mb-5">
+                        <button id="employee-form-submit" class="btn btn-primary w-100">KIRIM PENILAIAN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $("#employee-form-submit").click(function() {
+            var checkedValues = $('input[name="exampleRadios"]:checked').map(function() {
+                return $(this).val();
+            }).get();
+            var rates = checkedValues[0];
+            var note = $("#employee-form-note").val();
+
+            $.ajax({
+                type: "POST",
+                url: "/rating",
+                data: {
+                    employee_id: "<?= $items->id ?>",
+                    employee_rate: rates,
+                    comment: note
+                },
+                success: function(data) {
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Terimakasih!',
+                        text: 'Penilaian anda telah kami terima.',
+                        showConfirmButton: false,
+                        timer: 3000,
+                        timerProgressBar: false,
+                        allowOutsideClick: false,
+                        backdrop: `rgb(255, 255, 255)`
+                    }).then(() => {
+                        location.reload();
+                    })
+                }
+            });
         })
-    })
-</script>
+    </script>
+</body>
+
+</html>

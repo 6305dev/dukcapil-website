@@ -6,6 +6,12 @@ $router->setNamespace('App\Controllers');
 // Homepage
 $router->get('/', 'ViewController@HomePage');
 
+$router->get('/juknis-inovasi-pelangi', 'ViewController@JuknisPage');
+
+// Employees
+$router->get('/kinerja/(\d+)', 'EmployeeController@Index');
+$router->post('/rating', 'EmployeeController@RateEmployees');
+
 // Upload image
 $router->get('/upload', 'ViewController@UploadPage');
 $router->post('/upload', 'UploadController@ImageUpload');

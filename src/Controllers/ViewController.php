@@ -24,7 +24,7 @@ class ViewController
 
     public function ReviewPage()
     {
-        return $this->render('Review', ['title' => 'DISDUKCAPIL TAPIN - PENILAIAN KINERJA PEGAWAI']);
+        include_once './views/review.php';
     }
 
     public function UploadPage()
@@ -42,6 +42,11 @@ class ViewController
     public function MissingPage()
     {
         return $this->render('404', ['title' => '404']);
+    }
+
+    public function JuknisPage()
+    {
+        $this->render('juknis', ['title' => 'JUKNIS INOVASI PELANGI']);
     }
 
     public function render($paging, $params = [])

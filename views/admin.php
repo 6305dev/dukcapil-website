@@ -256,18 +256,7 @@
                         content
                     },
                     success: function(result) {
-                        Swal.fire({
-                            icon: 'success',
-                            title: 'Created!',
-                            text: 'Article has been created',
-                            showConfirmButton: false,
-                            timer: 3000,
-                            timerProgressBar: false,
-                            allowOutsideClick: false,
-                            backdrop: `rgb(255, 255, 255)`
-                        }).then(() => {
-                            location.reload();
-                        })
+                        
                     },
                 })
             });
